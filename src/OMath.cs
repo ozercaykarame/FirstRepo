@@ -7,4 +7,14 @@ public class OMath : IOMath
         else
           return 1;
   }
+  
+  public int FactWithLoop(int number)
+  {
+    int result=1;
+    for(int i=1;i<=number;i++)
+    {
+      result = result * i;
+    }
+    return result;
+  }
 }
